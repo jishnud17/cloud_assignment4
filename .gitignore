@@ -1,0 +1,7 @@
+*.pem
+assignment4.pem
+
+.DS_Store
+
+__pycache__/
+*.log

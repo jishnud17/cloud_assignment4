@@ -8,7 +8,7 @@ def home():
     # Requirement 1
     # read env var MY_ENV_VAR
     # return its value
-    return ""
+    return os.environ.get("MY_ENV_VAR", "")
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=80)
